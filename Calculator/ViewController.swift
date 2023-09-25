@@ -261,15 +261,15 @@ class ViewController: UIViewController {
 //            }
 //        }
         
-//        var operationStack = Stack()
-//        var outputQueue = Queue<String>()
-//        var operatorStack = [""]
-//        var index = 0
-//        while(inputArray.count > 0) {
-//            if let inputNum = Double(inputArray[index]) {
-//                outputQueue.enqueue(inputArray[index])
-//            }
-//        }
+        var operationStack = Stack()
+        var outputQueue = Queue<String>()
+        var operatorStack = [""]
+        var index = 0
+        while(inputArray.count > 0) {
+            if let inputNum = Double(inputArray[index]) {
+                outputQueue.enqueue(inputArray[index])
+            }
+        }
         return 0
     }
 }
