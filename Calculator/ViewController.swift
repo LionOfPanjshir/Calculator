@@ -149,10 +149,10 @@ class ViewController: UIViewController {
             }
         } else if labelNum < 0 {
             if floor(labelNum) == labelNum {
-                var newNum = labelNum * -1
+                let newNum = labelNum * -1
                 calcLabel.text = String(Int(newNum))
             } else {
-                var newNum = labelNum * -1
+                let newNum = labelNum * -1
                 calcLabel.text = String(newNum)
             }
         }
@@ -258,6 +258,16 @@ class ViewController: UIViewController {
 //                    let operand2 = Double(inputArray[index+1])
 //
 //                }
+//            }
+//        }
+        
+//        var operationStack = Stack()
+//        var outputQueue = Queue<String>()
+//        var operatorStack = [""]
+//        var index = 0
+//        while(inputArray.count > 0) {
+//            if let inputNum = Double(inputArray[index]) {
+//                outputQueue.enqueue(inputArray[index])
 //            }
 //        }
         return 0

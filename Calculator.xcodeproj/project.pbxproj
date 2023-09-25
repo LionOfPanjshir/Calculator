@@ -13,6 +13,7 @@
 		FC45C9A32AA240860043C99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC45C9A12AA240860043C99F /* Main.storyboard */; };
 		FC45C9A52AA240880043C99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC45C9A42AA240880043C99F /* Assets.xcassets */; };
 		FC45C9A82AA240880043C99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC45C9A62AA240880043C99F /* LaunchScreen.storyboard */; };
+		FC45CB772AC1F1700043C99F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC45CB762AC1F1700043C99F /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC45C9A42AA240880043C99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC45C9A72AA240880043C99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC45C9A92AA240880043C99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC45CB762AC1F1700043C99F /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FC45C99D2AA240860043C99F /* SceneDelegate.swift */,
 				FC45C99F2AA240860043C99F /* ViewController.swift */,
 				FC45C9A12AA240860043C99F /* Main.storyboard */,
+				FC45CB762AC1F1700043C99F /* Queue.swift */,
 				FC45C9A42AA240880043C99F /* Assets.xcassets */,
 				FC45C9A62AA240880043C99F /* LaunchScreen.storyboard */,
 				FC45C9A92AA240880043C99F /* Info.plist */,
@@ -141,6 +144,7 @@
 				FC45C9A02AA240860043C99F /* ViewController.swift in Sources */,
 				FC45C99C2AA240860043C99F /* AppDelegate.swift in Sources */,
 				FC45C99E2AA240860043C99F /* SceneDelegate.swift in Sources */,
+				FC45CB772AC1F1700043C99F /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
