@@ -261,15 +261,61 @@ class ViewController: UIViewController {
 //            }
 //        }
         
-        var operationStack = Stack()
-        var outputQueue = Queue<String>()
-        var operatorStack = [""]
-        var index = 0
-        while(inputArray.count > 0) {
-            if let inputNum = Double(inputArray[index]) {
-                outputQueue.enqueue(inputArray[index])
-            }
-        }
+//        var operationStack = Stack()
+//        var outputQueue = Queue<String>()
+//        var index = 0
+//        while(index < inputArray.count) {
+//            if let inputNum = Double(inputArray[index]) {
+//                outputQueue.enqueue(inputArray[index])
+//                index += 1
+//            } else {
+//                if inputArray[index] == "+" || inputArray[index] == "-" {
+//                    operationStack.push(inputArray[index])
+//                    index += 1
+//                }
+//            }
+//        }
         return 0
     }
 }
+
+
+//struct Queue<T> {
+//  private var elements: [T] = []
+//
+//  mutating func enqueue(_ value: T) {
+//    elements.append(value)
+//  }
+//
+//  mutating func dequeue() -> T? {
+//    guard !elements.isEmpty else {
+//      return nil
+//    }
+//    return elements.removeFirst()
+//  }
+//
+//  var head: T? {
+//    return elements.first
+//  }
+//
+//  var tail: T? {
+//    return elements.last
+//  }
+//}
+//
+//struct Stack {
+//    private var items: [String] = []
+//    
+//    func peek() -> String {
+//        guard let topElement = items.first else { fatalError("This stack is empty.") }
+//        return topElement
+//    }
+//    
+//    mutating func pop() -> String {
+//        return items.removeFirst()
+//    }
+//  
+//    mutating func push(_ element: String) {
+//        items.insert(element, at: 0)
+//    }
+//}
